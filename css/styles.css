@@ -1,0 +1,134 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+  background: #fafafa;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+button {
+  color: inherit;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.title-special {
+  color: #fd9222;
+}
+
+.logo-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.11;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+
+.logo-italics {
+  font-style: italic;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+}
+
+.section-hero {
+  color: #fff;
+}
+
+.hero-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.03em;
+}
+
+.hero-btm-down {
+  font-weight: 500;
+  line-height: 1.28;
+  letter-spacing: -0.03em;
+}
+
+.advantages-list-item .text {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.advantages-list-item .subtitle {
+  color: #fff;
+  text-transform: none;
+}
+
+.taste-list-item .subtitle {
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.section-made .subtitle,
+.section-review-item .subtitle {
+  text-transform: none;
+}
+
+.products-item .text {
+  font-size: 12px;
+  line-height: 1.16;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.section-review-item .text {
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.review-btn {
+  font-size: 18px;
+}
+
+.footer {
+  color: #fff;
+}
+
+.slogan-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+}
+
+.footer .text {
+  font-weight: 500;
+}
+
+.address-list-link {
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
