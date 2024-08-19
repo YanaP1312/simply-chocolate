@@ -83,6 +83,11 @@
             </a>
           </li>
         </ul>
+        <button class="header-btn-menu" type="button">
+          <svg class="header-icon-menu" width="28" height="28">
+            <use href="./images/icon/symbol-defs.svg#icon-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main class="main">
@@ -95,7 +100,7 @@
             </h1>
             <div class="hero-buttoms">
               <button class="hero-btm-buy" type="button">Buy now</button>
-              <a class="hero-btm-made" href="">How it’s made</a>
+              <a class="hero-btm-made" href="#made">How it’s made</a>
               <a class="hero-btm-down" href=""
                 >scroll down
                 <svg class="hero-btm-down-icon">
@@ -158,7 +163,7 @@
             IT ALL ADDS UP TO ONE EXCEPTIONAL
             <span class="title-special">TASTE</span> SENSATION
           </h2>
-          <p class="text">
+          <p class="text text-taste">
             At Simply Chocolate, we believe that the secret to exceptional
             chocolate is in the details. From the sourcing of the finest
             ingredients to the careful crafting of each individual piece, every
@@ -166,13 +171,29 @@
           </p>
           <ul class="taste-list">
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-1.png"
-                alt="Chocolate"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-1-2x.png 2x,
+                    ./images/taste/taste-1.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-1-mob-2x.png 2x,
+                    ./images/taste/taste-1-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-1.png"
+                  alt="Chocolate"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">MILK CHOCOLATE</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">Milk chocolate</h3>
@@ -190,13 +211,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-2.png"
-                alt="Milk"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-2-2x.png 2x,
+                    ./images/taste/taste-2.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-2-mob-2x.png 2x,
+                    ./images/taste/taste-2-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-2.png"
+                  alt="Milk"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">MILK</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">Milk</h3>
@@ -215,13 +252,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-3.png"
-                alt="Nuts"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-3-2x.png 2x,
+                    ./images/taste/taste-3.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-3-mob-2x.png 2x,
+                    ./images/taste/taste-3-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-3.png"
+                  alt="Nuts"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">NUTS</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">nuts</h3>
@@ -240,13 +293,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-4.png"
-                alt="Semi"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-4-2x.png 2x,
+                    ./images/taste/taste-4.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-4-mob-2x.png 2x,
+                    ./images/taste/taste-4-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-4.png"
+                  alt="Semi"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">SEMI - SWEET CHOCOLATE</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">semi - sweet chocolate</h3>
@@ -265,13 +334,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-5.png"
-                alt="Cacao"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-5-2x.png 2x,
+                    ./images/taste/taste-5.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-5-mob-2x.png 2x,
+                    ./images/taste/taste-5-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-5.png"
+                  alt="Cacao"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">CACAO</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">CACAO</h3>
@@ -290,13 +375,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-6.png"
-                alt="Raspberry"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-6-2x.png 2x,
+                    ./images/taste/taste-6.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-6-mob-2x.png 2x,
+                    ./images/taste/taste-6-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-6.png"
+                  alt="Raspberry"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">RASPBERRY</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">raspberry</h3>
@@ -314,13 +415,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-7.png"
-                alt="Coconut"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-7-2x.png 2x,
+                    ./images/taste/taste-7.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-7-mob-2x.png 2x,
+                    ./images/taste/taste-7-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-7.png"
+                  alt="Coconut"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">COCONUT OIL</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">coconut oil</h3>
@@ -338,13 +455,29 @@
               </div>
             </li>
             <li class="taste-list-item">
-              <img
-                class="taste-img"
-                src="./images/taste/taste-8.png"
-                alt="Vanila"
-                width="214"
-                height="160"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/taste/taste-8-2x.png 2x,
+                    ./images/taste/taste-8.png    1x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/taste/taste-8-mob-2x.png 2x,
+                    ./images/taste/taste-8-mob.png    1x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="taste-img"
+                  src="./images/taste/taste-8.png"
+                  alt="Vanila"
+                  width="236"
+                  height="176"
+                />
+              </picture>
               <h3 class="subtitle">VANILLA</h3>
               <div class="overley-taste">
                 <h3 class="subtitle">VANILLA</h3>
@@ -365,18 +498,38 @@
         </div>
       </section>
       <section class="section-made" id="made">
-        <div class="container">
+        <div class="container container-section-made">
           <h2 class="title">
             How it's <span class="title-special">made?</span>
           </h2>
           <div class="container-made">
-            <img
-              class="made-img"
-              src="./images/made/made.jpg"
-              alt="liquid chocolate"
-              width="600"
-              height="400"
-            />
+            <picture>
+              <source
+                srcset="./images/made/made-2x.jpg 2x, ./images/made/made.jpg 1x"
+                media="(min-width: 1168px)"
+              />
+              <source
+                srcset="
+                  ./images/made/made-tablet-2x.jpg 2x,
+                  ./images/made/made-tablet.jpg    1x
+                "
+                media="(min-width: 768px)"
+              />
+              <source
+                srcset="
+                  ./images/made/made-mob-2x.jpg 2x,
+                  ./images/made/made-mob.jpg    1x
+                "
+                media="(max-width: 767px)"
+              />
+              <img
+                class="made-img"
+                src="./images/made/made.jpg"
+                alt="liquid chocolate"
+                width="600"
+                height="400"
+              />
+            </picture>
             <div class="made-description">
               <h3 class="subtitle">
                 Try our chocolates today and discover the perfect balance of
@@ -418,12 +571,16 @@
           </div>
         </div>
       </section>
-      <section class="section-products">
+      <section class="section-products" id="products">
         <div class="container">
           <h2 class="title">Our <span class="title-special">products</span></h2>
           <ul class="products-list">
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-1-2x.jpg 2x,
+                  ./images/products/img-1.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-1.jpg"
                 alt="Chocolate with orange"
@@ -438,6 +595,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-2-2x.jpg 2x,
+                  ./images/products/img-2.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-2.jpg"
                 alt="Chocolate with apple and cranberry"
@@ -452,6 +613,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-3-2x.jpg 2x,
+                  ./images/products/img-3.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-3.jpg"
                 alt="Chocolate with lime and sea salt"
@@ -466,6 +631,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-4-2x.jpg 2x,
+                  ./images/products/img-4.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-4.jpg"
                 alt="Chocolate with pineapple"
@@ -480,6 +649,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-5-2x.jpg 2x,
+                  ./images/products/img-5.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-5.jpg"
                 alt="Classic milk chocolate"
@@ -494,6 +667,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-6-2x.jpg 2x,
+                  ./images/products/img-6.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-6.jpg"
                 alt="Chocolate with honey"
@@ -508,6 +685,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-7-2x.jpg 2x,
+                  ./images/products/img-7.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-7.jpg"
                 alt="Chocolate with roasted fruits"
@@ -522,6 +703,10 @@
             </li>
             <li class="products-item">
               <img
+                srcset="
+                  ./images/products/img-8-2x.jpg 2x,
+                  ./images/products/img-8.jpg    1x
+                "
                 class="products-img"
                 src="./images/products/img-8.jpg"
                 alt="Classic white chocolate"
@@ -537,13 +722,17 @@
           </ul>
         </div>
       </section>
-      <section class="section-topsel">
+      <section class="section-topsel" id="topsel">
         <div class="container">
           <h2 class="title"><span class="title-special">Top</span> sellers</h2>
           <ul class="topsel-list">
             <li class="topsel-list-item">
               <div class="topsel-item-gallery">
                 <img
+                  srcset="
+                    ./images/sellers/img-1-2x.jpg 2x,
+                    ./images/sellers/img-1.jpg    1x
+                  "
                   class="topsel-img"
                   src="./images/sellers/img-1.jpg"
                   alt="CHOCOLATE WITH NUTS"
@@ -565,6 +754,10 @@
             <li class="topsel-list-item">
               <div class="topsel-item-gallery">
                 <img
+                  srcset="
+                    ./images/sellers/img-2-2x.jpg 2x,
+                    ./images/sellers/img-2.jpg    1x
+                  "
                   class="topsel-img"
                   src="./images/sellers/img-2.jpg"
                   alt="CHOCOLATE WITH FRUITS"
@@ -585,6 +778,10 @@
             <li class="topsel-list-item">
               <div class="topsel-item-gallery">
                 <img
+                  srcset="
+                    ./images/sellers/img-3-2x.jpg 2x,
+                    ./images/sellers/img-3.jpg    1x
+                  "
                   class="topsel-img"
                   src="./images/sellers/img-3.jpg"
                   alt="DARK CHOCOLATE"
@@ -614,6 +811,10 @@
           <ul class="section-review-list">
             <li class="section-review-item">
               <img
+                srcset="
+                  ./images/review/Ellipse-1-2x.png 2x,
+                  ./images/review/Ellipse-1.png    1x
+                "
                 class="review-img"
                 src="./images/review/Ellipse-1.png"
                 alt="Foto Victoria Dobrzhanska"
@@ -628,6 +829,10 @@
             </li>
             <li class="section-review-item">
               <img
+                srcset="
+                  ./images/review/Ellipse-2-2x.png 2x,
+                  ./images/review/Ellipse-2.png    1x
+                "
                 class="review-img"
                 src="./images/review/Ellipse-2.png"
                 alt="Foto Nazar Babenko"
@@ -643,6 +848,10 @@
             </li>
             <li class="section-review-item">
               <img
+                srcset="
+                  ./images/review/Ellipse-3-2x.png 2x,
+                  ./images/review/Ellipse-3.png    1x
+                "
                 class="review-img"
                 src="./images/review/Ellipse-3.png"
                 alt="Foto Olena Kampusch"
@@ -750,6 +959,12 @@
               <li class="nav-list-item">
                 <a class="nav-list-link" href="#made">How it’s made?</a>
               </li>
+              <li class="nav-list-item nav-list-item-new">
+                <a class="nav-list-link" href="#products">Our products</a>
+              </li>
+              <li class="nav-list-item nav-list-item-new">
+                <a class="nav-list-link" href="#topsel">Top sellers</a>
+              </li>
               <li class="nav-list-item">
                 <a class="nav-list-link" href="#review">Chocolate is loved</a>
               </li>
@@ -769,7 +984,7 @@
       </div>
     </footer>
 
-    <div class="modal-overlay">
+    <!-- <div class="modal-overlay">
       <div class="modal">
         <button class="form-close-btn" type="button">
           <svg class="form-close-icon" width="16" height="16">
@@ -862,6 +1077,6 @@
           <button class="form-send-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
   </body>
 </html>
