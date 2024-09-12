@@ -230,7 +230,7 @@ textarea {
   padding: 395px 20px 20px;
   border-radius: 30px;
   background-color: rgba(17, 17, 17, 0.6);
-  background-image: url(/images/hero-mob.jpg);
+  background-image: url(./images/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -240,7 +240,7 @@ textarea {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-wrap {
-    background-image: url(/images/hero-mob-2x.jpg);
+    background-image: url(./images/hero-mob-2x.jpg);
   }
 }
 
