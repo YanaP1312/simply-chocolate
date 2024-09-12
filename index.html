@@ -25,13 +25,9 @@
         <nav class="nav">
           <a class="logo-link" href="index.html">
             <span class="logo-italics">Simply</span>CHOCOLATE
-            <img
-              class="logo-icon"
-              src="./images/icon/logo.svg"
-              alt="logo"
-              width="21"
-              height="21"
-            />
+            <svg class="logo-icon" width="21" height="21">
+              <use href="./images/icon/symbol-defs.svg#icon-logo"></use>
+            </svg>
           </a>
           <ul class="nav-list">
             <li class="nav-list-item">
@@ -91,7 +87,12 @@
       </div>
       <div class="mob-menu">
         <button class="close-btn-menu" type="button">
-          <svg class="close-icon-menu" width="28" height="28">
+          <svg
+            class="close-icon-menu"
+            width="28"
+            height="28"
+            aria-label="menu close button icon"
+          >
             <use href="./images/icon/symbol-defs.svg#icon-x-close"></use>
           </svg>
         </button>
@@ -1045,7 +1046,12 @@
     <div class="modal-overlay">
       <div class="modal">
         <button class="form-close-btn" type="button">
-          <svg class="form-close-icon" width="24" height="24">
+          <svg
+            class="form-close-icon"
+            width="24"
+            height="24"
+            aria-label="form close button icon"
+          >
             <use href="./images/icon/symbol-defs.svg#icon-x-close"></use>
           </svg>
         </button>

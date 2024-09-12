@@ -235,7 +235,7 @@ textarea {
       rgba(17, 17, 17, 0.4) 0%,
       rgba(17, 17, 17, 0.4) 100%
     ),
-    url(/images/hero-mob.jpg);
+    url(./images/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -250,7 +250,7 @@ textarea {
         rgba(17, 17, 17, 0.4) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(/images/hero-mob-2x.jpg);
+      url(./images/hero-mob-2x.jpg);
   }
 }
 
@@ -368,6 +368,7 @@ textarea {
 .advantages-list-item {
   width: 100%;
   padding-right: 28px;
+  position: relative;
 }
 
 .advantages-list-item .text {
@@ -379,28 +380,6 @@ textarea {
   text-transform: none;
   margin-bottom: 18px;
 }
-
-/* .advantages-list-item:not(:last-child)::after {
-  content: "";
-  display: block;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  width: 124px;
-  height: 0px;
-  transform: rotate(-90deg);
-  position: absolute;
-  right: 0;
-  top: 50%;
-} */
-
-/* .advantages-list-item:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  top: calc(50% - 62px);
-  right: -45px;
-  width: 1px;
-  height: 124px;
-  background: rgba(var(--light-cl) / 50%);
-} */
 
 /* section taste */
 .section-taste {
@@ -1240,7 +1219,7 @@ textarea {
         rgba(17, 17, 17, 0.4) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(/images/hero-tablet.jpg);
+      url(./images/hero-tablet.jpg);
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -1252,7 +1231,7 @@ textarea {
           rgba(17, 17, 17, 0.4) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url(/images/hero-tablet-2x.jpg);
+        url(./images/hero-tablet-2x.jpg);
     }
   }
 
@@ -1575,7 +1554,7 @@ textarea {
         rgba(17, 17, 17, 0.4) 0%,
         rgba(17, 17, 17, 0.4) 100%
       ),
-      url(/images/hero.jpg);
+      url(./images/hero.jpg);
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),
@@ -1587,7 +1566,7 @@ textarea {
           rgba(17, 17, 17, 0.4) 0%,
           rgba(17, 17, 17, 0.4) 100%
         ),
-        url(/images/hero-2x.jpg);
+        url(./images/hero-2x.jpg);
     }
   }
   /* section advantages*/
@@ -1598,6 +1577,17 @@ textarea {
   .advantages-list-item {
     width: calc((100% - 2 * 88px) / 3);
   }
+
+  .advantages-list-item:not(:last-child)::after {
+    content: "";
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    width: 0px;
+    height: 124px;
+    position: absolute;
+    right: -44px;
+    top: calc(50% - 62px);
+  }
+
   /* section taste */
   .section-taste {
     padding-top: 120px;
