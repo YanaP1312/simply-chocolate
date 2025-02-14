@@ -159,12 +159,20 @@ textarea {
   justify-content: space-between;
   width: 100vw;
   height: 100%;
+  min-width: 320px;
   padding: 20px;
   background: #1e1823;
+  z-index: 999999;
 
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
 }
 
 .close-btn-menu {
@@ -178,7 +186,8 @@ textarea {
 }
 
 .close-btn-menu:focus,
-.close-btn-menu:active {
+.close-btn-menu:active,
+.close-btn-menu:hover {
   stroke: #fd9222;
 }
 
@@ -199,7 +208,8 @@ textarea {
 }
 
 .mob-nav-list-link:focus,
-.mob-nav-list-link:active {
+.mob-nav-list-link:active,
+.mob-nav-list-link:hover {
   color: #fd9222;
 }
 
@@ -216,7 +226,8 @@ textarea {
 }
 
 .mob-socials-list-link:focus,
-.mob-socials-list-link:active {
+.mob-socials-list-link:active,
+.mob-socials-list-link:hover {
   stroke: #fd9222;
 }
 
@@ -900,6 +911,8 @@ textarea {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 99999;
 }
 
 .is-open {
@@ -1184,7 +1197,7 @@ textarea {
     letter-spacing: -0.02em;
     display: block;
     padding-top: 24px;
-    padding-bottom: 35px;
+    padding-bottom: 24px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
