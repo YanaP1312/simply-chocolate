@@ -1453,8 +1453,8 @@ textarea {
   /* modal */
   .modal {
     width: 517px;
-    min-height: 794px;
-    padding: 40px;
+    height: 640px;
+    padding: 20px 40px;
   }
 
   .form-close-btn {
@@ -1493,7 +1493,7 @@ textarea {
     padding-right: 24px;
     padding-top: 22px;
     padding-bottom: 22px;
-    height: 68px;
+    height: 32px;
   }
 
   .user-icon {
@@ -1509,9 +1509,12 @@ textarea {
   .form-textarea::placeholder {
     font-size: 18px;
   }
+  .form-textarea {
+    height: 70px;
+  }
 
   .check-wrap {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .check-text {
@@ -1544,10 +1547,6 @@ textarea {
   .header .nav .logo-icon {
     width: 24px;
     height: 24px;
-  }
-
-  .nav-list-link {
-    padding-bottom: 32px;
   }
 
   .header .socials-list {
