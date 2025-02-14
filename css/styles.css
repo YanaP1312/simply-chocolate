@@ -169,12 +169,6 @@ textarea {
   visibility: hidden;
 }
 
-.no-scroll {
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-}
-
 .close-btn-menu {
   border: transparent;
   background: transparent;
@@ -358,6 +352,7 @@ textarea {
 
 .section-advantages {
   background: #1e1823;
+  min-width: 375px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -764,6 +759,7 @@ textarea {
 .footer {
   color: #fff;
   background: #1e1823;
+  min-width: 375px;
   padding: 32px 0;
 }
 
@@ -940,11 +936,14 @@ textarea {
   padding: 0;
   border: none;
   background: transparent;
+  transition: stroke 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  stroke: #111;
+  stroke-width: 2px;
 }
 
-.form-close-icon {
-  stroke-width: 2px;
-  stroke: #111;
+.form-close-btn:hover,
+.form-close-btn:focus {
+  stroke: #fd9222;
 }
 
 .modal .title {
