@@ -113,6 +113,11 @@ input:-webkit-autofill {
   letter-spacing: -0.02em;
 }
 
+.no-scroll {
+  overflow: hidden;
+  hight: 100vh;
+}
+
 /* header */
 .header .container {
   display: flex;
