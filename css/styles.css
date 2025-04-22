@@ -118,6 +118,30 @@ input:-webkit-autofill {
   hight: 100vh;
 }
 
+.toast {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  max-width: 300px;
+  padding: 14px 18px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
 /* header */
 .header .container {
   display: flex;
